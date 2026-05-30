@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevTools 开发者工具包</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);color:#fff;min-height:100vh}
+.container{max-width:800px;margin:0 auto;padding:40px 20px;text-align:center}
+h1{font-size:36px;margin-bottom:10px;background:linear-gradient(90deg,#00d2ff,#3a7bd5);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.subtitle{font-size:16px;color:#8892b0;margin-bottom:40px}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:40px}
+@media(max-width:600px){.cards{grid-template-columns:1fr}}
+.card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:30px;text-align:left;transition:transform 0.2s}
+.card:hover{transform:translateY(-4px);border-color:#3a7bd5}
+.card h3{font-size:18px;margin-bottom:8px;color:#00d2ff}
+.card p{font-size:14px;color:#8892b0;line-height:1.6;margin-bottom:12px}
+.card .cmd{background:rgba(0,0,0,0.3);padding:8px 12px;border-radius:6px;font-family:monospace;font-size:13px;color:#64ffda;overflow-x:auto}
+.btn{display:inline-block;padding:12px 32px;background:linear-gradient(90deg,#00d2ff,#3a7bd5);color:#fff;border-radius:8px;text-decoration:none;font-size:16px;font-weight:bold;margin:10px 5px;transition:opacity 0.2s}
+.btn:hover{opacity:0.9}
+.footer{margin-top:60px;padding:20px;color:#8892b0;font-size:13px}
+.donate-section{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:30px;margin-top:30px}
+.donate-section h2{font-size:20px;margin-bottom:15px}
+.donate-section p{font-size:14px;color:#8892b0;margin-bottom:20px}
+.qr-placeholder{width:200px;height:200px;background:rgba(255,255,255,0.1);border-radius:12px;margin:0 auto;display:flex;align-items:center;justify-content:center;font-size:14px;color:#666}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🛠️ DevTools</h1>
+<p class="subtitle">开发者实用工具集 · 开源免费 · Python实现</p>
+
+<div class="cards">
+<div class="card">
+<h3>📝 md2wechat</h3>
+<p>Markdown → 微信公众号文章<br>一键转换，完美排版</p>
+<div class="cmd">python md2wechat.py article.md -o out.html</div>
+</div>
+<div class="card">
+<h3>📄 Resume Builder</h3>
+<p>JSON → 精美HTML简历<br>程序员求职必备</p>
+<div class="cmd">python resume_builder.py resume.json -o resume.html</div>
+</div>
+</div>
+
+<a class="btn" href="https://github.com/chengjunhua465-create/md2wechat" target="_blank">📂 GitHub 仓库</a>
+<a class="btn" href="https://github.com/chengjunhua465-create/md2wechat/releases" target="_blank">⬇️ 下载</a>
+
+<div class="donate-section">
+<h2>☕ 请我喝杯咖啡</h2>
+<p>如果这些工具帮到了你，欢迎打赏支持！<br>你的支持是我持续更新的动力 💪</p>
+<div class="qr-placeholder">
+微信扫一扫<br>打赏支持
+</div>
+</div>
+
+<div class="footer">
+<p>Made with ❤️ by ChengJunhua | MIT License</p>
+</div>
+</div>
+</body>
+</html>
