@@ -1,3 +1,18 @@
+<div align="center">
+
+# md2wechat 📱
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-%23db61a2.svg?&logo=github&logoColor=white)](https://github.com/sponsors/chengjunhua465-create)
+[![GitHub stars](https://img.shields.io/github/stars/chengjunhua465-create/md2wechat?style=social)](https://github.com/chengjunhua465-create/md2wechat)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+**Markdown → WeChat Official Account Article Converter**  
+将Markdown格式文章一键转换为微信公众号文章样式HTML。
+
+---
+
+</div>
+
 # md2wechat 📱
 
 **Markdown → WeChat Official Account Article Converter**
